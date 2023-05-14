@@ -13,6 +13,13 @@ function App() {
   const darkTheme = createTheme({
     palette:{
       mode:theme
+    },
+    typography:{
+      fontFamily:'Poppins',
+      fontWeightLight:400,
+      fontWeightMedium:600,
+      fontWeightRegular:500,
+      fontWeightBold:500
     }
   })
 
