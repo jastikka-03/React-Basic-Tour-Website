@@ -15,7 +15,8 @@ import React from 'react'
 
 const Menu = () => {
   return (
-    <Box mt={2} flex={1} >
+    <Box mt={2} flex={1} sx={{display:{xs:'none',sm:'block'}}}>
+      <Box position='fixed'>
       <List >
           <ListItem disablePadding sx={{ my: 2 }}>
             <ListItemButton >
@@ -69,6 +70,7 @@ const Menu = () => {
             </ListItemButton>
           </ListItem>
       </List>
+      </Box>
     </Box>
   )
 }
