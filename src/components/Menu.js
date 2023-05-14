@@ -15,52 +15,52 @@ import React from 'react'
 
 const Menu = () => {
   return (
-    <Box mt={2} flex={1}>
-      <List>
-          <ListItem disablePadding>
-            <ListItemButton>
+    <Box mt={2} flex={1} >
+      <List >
+          <ListItem disablePadding sx={{ my: 2 }}>
+            <ListItemButton >
               <ListItemIcon>
                 <InboxIcon />
               </ListItemIcon>
               <ListItemText primary="Inbox" />
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
+          <ListItem disablePadding sx={{ my: 2 }}>
             <ListItemButton>
               <ListItemIcon>
                 <FormatAlignJustifyIcon />
               </ListItemIcon>
               <ListItemText primary="Things to do" />
             </ListItemButton>
-          </ListItem><ListItem disablePadding>
+          </ListItem><ListItem disablePadding sx={{ my: 2 }}>
             <ListItemButton>
               <ListItemIcon>
                 <ExploreIcon />
               </ListItemIcon>
               <ListItemText primary="Explore" />
             </ListItemButton>
-          </ListItem><ListItem disablePadding>
+          </ListItem><ListItem disablePadding sx={{ my: 2 }}>
             <ListItemButton>
               <ListItemIcon>
                 <AccessibilityNewIcon />
               </ListItemIcon>
               <ListItemText primary="Facts" />
             </ListItemButton>
-          </ListItem><ListItem disablePadding>
+          </ListItem><ListItem disablePadding sx={{ my: 2 }}>
             <ListItemButton>
               <ListItemIcon>
                 <AddLocationAltIcon/>
               </ListItemIcon>
               <ListItemText primary="Places" />
             </ListItemButton>
-          </ListItem><ListItem disablePadding>
+          </ListItem><ListItem disablePadding sx={{ my: 2 }}>
             <ListItemButton>
               <ListItemIcon>
                 <LocalActivityIcon />
               </ListItemIcon>
               <ListItemText primary="Tickets" />
             </ListItemButton>
-          </ListItem><ListItem disablePadding>
+          </ListItem><ListItem disablePadding sx={{ my: 2 }}>
             <ListItemButton>
               <ListItemIcon>
                 <HelpIcon />
